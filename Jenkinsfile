@@ -49,7 +49,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name ecomm-9 -p 8081:8081 -d ecomm-9
+            docker container run --restart always --name ecomm-9 -p 8081:9091 -d ecomm-9
             '''
             }
         }
